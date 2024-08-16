@@ -1,9 +1,9 @@
 #Algoritmo no qual tem a funcionalidade de calcular area de comodos
 def calcular_area_comodos():
-#Declaração da variavel
+#Declaracao da variavel
 total_area = 0
 
-#Inicialização de um loop para fazer mais de um calculo de area
+#Inicializacao de um loop para fazer mais de um calculo de area
 while True:
 
 #Pede a largura do comodo em metros
@@ -21,7 +21,7 @@ total_area += area_comodo
 #Pergunta se deseja adicionar mais comodos para calculo de area
 mais_comodos = input("Deseja adicionar mais cômodos? (s/n): ").strip().lower()
 
-#Caso o usuario não deseje adicionar mais comodos o loop para
+#Caso o usuario nao deseje adicionar mais comodos o loop para
 if mais_comodos != 's':
 break
 
